@@ -1,1 +1,0 @@
-# Sean McCoy's Portfolio
