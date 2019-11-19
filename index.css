@@ -68,10 +68,15 @@ li {
 
 .bio {
     margin: 0;
+    padding: 2vw;
 }
 
 .projects img {
     width: 100%;
+}
+
+.projects a {
+    color: black;
 }
 
 @media screen and (min-width: 750px) {
@@ -122,5 +127,8 @@ li {
     }
     .p-main {
         display: inline-flex;
+    }
+    .hero {
+        max-width: 400px;
     }
 }
