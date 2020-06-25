@@ -1,134 +1,147 @@
 body {
-    font-size: 16px;
-    margin: 0;
+  font-size: 16px;
+  margin: 0;
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 header img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .hero {
-    border-radius: 50%;
-    width: 80%;
-    max-width: 200px;
+  border-radius: 50%;
+  width: 80%;
+  max-width: 200px;
 }
 
 header header,
 .bio {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .contact {
-    margin: 25px 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+  margin: 25px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .bg {
-    background-image: url(images/skyline.jpg);
-    display: block;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    height: 30vh;
+  background-image: url(images/skyline.jpg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 30vh;
 }
 
 .c-bottom ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .c-bottom li {
-    font-size: 4rem;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
+  font-size: 4rem;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .bio {
-    margin: 0;
-    padding: 2vw;
+  margin: 0;
+  padding: 2vw;
 }
 
 .projects img {
-    width: 100%;
+  width: 100%;
 }
 
 .projects a {
-    color: black;
+  color: black;
+}
+.projects h1 {
+  margin: 0;
+  text-align: center;
+}
+.p-main2,
+#p2 {
+  background-color: black;
+  color: white;
+}
+.p-main2 a {
+  color: white;
 }
 
 @media screen and (min-width: 750px) {
-    .hero {
-        border-radius: 50%;
-        text-align: left;
-        max-width: 300px;
-    }
-    .c-top {
-        justify-content: space-between;
-        width: 70%;
-    }
-    .c-top {
-        display: inline-flex;
-    }
-    .c-top h1 {
-        font-size: 6vw;
-        text-align: right;
-    }
-    .c-bottom h1 {
-        font-size: 2vw;
-    }
-    p {
-        font-size: 3vw;
-    }
-    .c-bottom ul {
-        text-align: center;
-        width: 100vw;
-    }
+  .hero {
+    border-radius: 50%;
+    text-align: left;
+    max-width: 300px;
+  }
+  .c-top {
+    justify-content: space-between;
+    width: 70%;
+  }
+  .c-top {
+    display: inline-flex;
+  }
+  .c-top h1 {
+    font-size: 6vw;
+    text-align: right;
+  }
+  .c-bottom h1 {
+    font-size: 2vw;
+  }
+  p {
+    font-size: 3vw;
+  }
+  .c-bottom ul {
+    text-align: center;
+    width: 100vw;
+  }
 }
 
 @media screen and (min-width: 900px) {
-    .projects {
-        display: flex;
-        flex-direction: column;
-    }
-    .bg {
-        height: 45vh;
-    }
-    p {
-        font-size: 2vw;
-    }
-    .bio {
-        margin: 0 0 10% 0;
-    }
-    .projects h1 {
-        font-size: 3vw;
-    }
-    .p-main {
-        display: inline-flex;
-    }
-    .hero {
-        max-width: 400px;
-    }
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+  .bg {
+    height: 45vh;
+  }
+  p {
+    font-size: 2vw;
+  }
+  .bio {
+    margin: 0 0 10% 0;
+  }
+  .projects h1 {
+    font-size: 3vw;
+  }
+  .p-main,
+  .p-main2 {
+    display: inline-flex;
+  }
+  .hero {
+    max-width: 400px;
+  }
 }
